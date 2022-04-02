@@ -6,12 +6,19 @@ let answer1=document.getElementById("answer1");
 let answer2=document.getElementById("answer2");
 let answer3=document.getElementById("answer3");
 
-
+function nextQuestion(){
+    
+}
 
 //////////////////////////////////HTML EXAM /////////////////////////////////////////////////////////////
 
 function htmlExam() {
-    HTML
+    question.innerHTML="Question one";
+    answer1.innerHTML="answer one";
+    answer2.innerHTML="answer two";
+    answer3.innerHTML="answer three";
+    nextQuestion()
+
 }
 
 
