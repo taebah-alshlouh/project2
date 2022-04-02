@@ -5,3 +5,20 @@
 table{
     margin: 5% 10%;
 }
+#finalResult{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 182, 0, 0.712);
+}
+#logout{
+    margin-left: 40%;
+    width: 15%;
+    margin-top: 1%;
+    background-color: #e9ecef;
+    border: 1px solid #e9ecef;
+    border-radius: 3%;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
