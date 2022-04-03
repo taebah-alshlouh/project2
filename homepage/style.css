@@ -282,6 +282,16 @@ button{
   /* /////////////////////media///////////////////////////// */
   @media (min-width:1600px) and (max-width:2560px)
   {
+    #submitt{
+        margin-top: 4%;
+        width: 50%;
+        margin-left: 25%;
+       }
+       option{
+           font-size: 12px;
+           width: 10px;
+           display: inline;
+       }
     #homeForm{
         width: 60%;
         margin: 12% 21%;
@@ -304,13 +314,7 @@ button{
         margin: 5% 10%;
         align-content: center;
        }
-       #submitt{
-        margin-top: 8%;
-        width: 84%;
-        margin-left: 8%;
-       }
    #select{
-   
     font-size: 1vw
    }
    h2{
