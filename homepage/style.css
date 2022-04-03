@@ -290,7 +290,7 @@ button{
        option{
            font-size: 12px;
            width: 10px;
-           display: inline;
+           display: inline-block;
        }
     #homeForm{
         width: 60%;

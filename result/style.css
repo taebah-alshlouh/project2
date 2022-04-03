@@ -22,3 +22,22 @@ a{
     text-decoration: none !important;
     color: black !important;
 }
+
+/* ////////////////////////////////////////// */
+/* /////////////Media Query///////////////////// */
+@media (max-width: 426px){
+    .brGrade {display: inline;}
+    #logout{
+        width: 30%;
+    }
+}
+@media (max-width: 321px){
+    #logout{
+        margin-left: 50%;
+    }
+}
+@media (max-width: 290px){
+    #logout{
+        margin-left: 60%;
+    }
+}

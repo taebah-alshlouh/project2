@@ -251,12 +251,12 @@ let i=0;
             }    
      default:
          if(x>y){
-            finalResult.innerHTML=`YOU PASSED THE QUIZ!!! &nbsp; &nbsp; ${(x/5)*100} %`;
+            finalResult.innerHTML=`YOU PASSED THE QUIZ!!! &nbsp; &nbsp; ${(x/5)*100}%`;
             finalResult.style.backgroundColor="rgba(0, 182, 0, 0.712)";
             
          }
          else{
-            finalResult.innerHTML=`YOU FAILED THE QUIZ &nbsp; &nbsp; ${(x/5)*100} %`;
+            finalResult.innerHTML=`YOU FAILED THE QUIZ &nbsp; &nbsp; ${(x/5)*100}%`;
             finalResult.style.backgroundColor="red";
          }
          break;
