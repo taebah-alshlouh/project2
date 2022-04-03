@@ -21,6 +21,18 @@ form{
     border-radius: 5%;
     align-content: space-evenly;
 }
+#homeForm{
+    background-color: #76b852;
+    height: 63vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20hv;
+    margin: 5% 25%;
+    border-radius: 5%;
+    align-content: space-evenly;
+}
 input{
     background-color:rgb(113, 213, 74);
     display: block;
@@ -298,13 +310,8 @@ button{
         margin-left: 8%;
        }
    #select{
-    letter-spacing: 1px;
-    margin: 0 8%;
+   
     font-size: 2vw
-   }
-   option{
-       font-size: 1vw;
-       width: 10%;
    }
    h2{
        font-size: 2vw;
