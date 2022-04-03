@@ -173,6 +173,9 @@ function nextQuestion(){
     }
         console.log(SpecifiedQuestions);
     i=savedAnswers.length+1;
+    if (i===1) 
+      alert("please selct an answer before moving to the next question");
+    
     switch(i){
         case(1):
             question.innerHTML= SpecifiedQuestions[0].question;
@@ -278,9 +281,9 @@ resultButt.style.display='block';}
 //     nextQuestion(htmlQuestions, i);  
 // }
 
-
-
-
+/////////////////////////////CLOCK////////////////////////CLOCK//////////////////////////////////////////////
+////////////////////////////////////CLOCK//////////CLOCK////////////////////////////////////////////////////
+////////////////////////////////////////////CLOCK//////////////////////////////////////////////////////////
 // Credit: Mateusz Rybczonec
 
 const FULL_DASH_ARRAY = 283;

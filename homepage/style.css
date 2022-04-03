@@ -19,6 +19,7 @@ form{
     height: 20hv;
     margin: 5% 25%;
     border-radius: 5%;
+    align-content: space-evenly;
 }
 input{
     background-color:rgb(113, 213, 74);
@@ -260,4 +261,462 @@ button{
   a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.745);
+  }
+#h2welcoming{
+    text-align: center;
+
+}
+
+  /* /////////////////////media///////////////////////////// */
+  @media (min-width:1600px) and (max-width:2560px)
+  {
+      form{
+        width: 60%;
+        margin: 12% 21%;
+      }
+      #h2welcoming {
+        text-align: center;
+        font-size: 2vw;
+    }
+    a{
+        font-size: 2vw;
+    }
+    p{
+        font-size: 2vw;
+    }
+    #ul1{
+      position: absolute;
+      top: 0%;
+      left: 80%;
+      background-color: rgb(213, 208, 208);
+      width:11%;
+      height: 15vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul2{
+      position: absolute;
+      top: 70%;
+      left: 10%;
+      background-color: rgb(213, 208, 208);
+      width: 12%;
+      height: 17vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul3{
+      position: absolute;
+      top: 10%;
+      left: 60%;
+      background-color: rgb(213, 208, 208);
+      width:14.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 75%;
+      opacity: 20%;
+  
+  }
+  #ul4{
+      position: absolute;
+      top: 70%;
+      left: 70%;
+      background-color: rgb(213, 208, 208);
+      width: 13.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 75%;
+      opacity: 20%;
+  
+  }
+  #ul5{
+      position: absolute;
+      top: 22%;
+      left: 18%;
+      background-color: rgb(213, 208, 208);
+      width: 6.5%;
+      height: 10vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul6{
+      position: absolute;
+      top: 38%;
+      left: 45%;
+      background-color: rgb(213, 208, 208);
+      width: 9.5%;
+      height: 13vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul7{
+      position: absolute;
+      top: 50%;
+      left: 16%;
+      background-color: rgb(213, 208, 208);
+      width:14.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul8{
+      position: absolute;
+      top: 40%;
+      left: 65%;
+      background-color: rgb(213, 208, 208);
+      width: 7.5%;
+     height: 10vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul9{
+      position: absolute;
+      top: 75%;
+      left: 30%;
+      background-color: rgb(213, 208, 208);
+      width: 10.5%;
+      height: 14vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul99{
+      position: absolute;
+      top: 11%;
+      left: 34%;
+      background-color: rgb(213, 208, 208);
+      width: 7.5%;
+      height: 11vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  }
+
+
+
+  @media (max-width:769px)
+  {
+      form{
+        width: 60%;
+        margin: 12% 21%;
+      }
+    #h2welcoming{
+        text-align: center;
+     font-size:85%;;
+    }
+    #ul1{
+      position: absolute;
+      top: 0%;
+      left: 80%;
+      background-color: rgb(213, 208, 208);
+      width:11%;
+      height: 15vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul2{
+      position: absolute;
+      top: 55%;
+      left: 10%;
+      background-color: rgb(213, 208, 208);
+      width:5%;
+      height: 15vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul3{
+      position: absolute;
+      top: 10%;
+      left: 60%;
+      background-color: rgb(213, 208, 208);
+      width:14.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 75%;
+      opacity: 20%;
+  
+  }
+  #ul4{
+      position: absolute;
+      top: 70%;
+      left: 70%;
+      background-color: rgb(213, 208, 208);
+      width:7.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 75%;
+      opacity: 20%;
+  
+  }
+  #ul5{
+      position: absolute;
+      top: 22%;
+      left: 32%;
+      background-color: rgb(213, 208, 208);
+      width:2.5%;
+      height: 10vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul6{
+      position: absolute;
+      top: 38%;
+      left: 45%;
+      background-color: rgb(213, 208, 208);
+      width:2.5%;
+      height: 10vh;
+      display: block;
+      border-radius: 50%;
+      opacity: 20%;
+  
+  }
+  #ul7{
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      background-color: rgb(213, 208, 208);
+      width:14.5%;
+      height: 20vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul8{
+      position: absolute;
+      top: 40%;
+      left: 65%;
+      background-color: rgb(213, 208, 208);
+      width: 0.5%;
+      height: 6vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul9{
+      position: absolute;
+      top: 75%;
+      left: 30%;
+      background-color: rgb(213, 208, 208);
+      width: 6.5%;
+      height: 7vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  #ul99{
+      position: absolute;
+      top: 11%;
+      left: 34%;
+      background-color: rgb(213, 208, 208);
+      width: 0.5%;
+      height: 6vh;
+      display: block;
+      border-radius: 100%;
+      opacity: 20%;
+  
+  }
+  }
+  @media (max-width:426px)
+  {
+      h1{
+        font-size: 4.5vw;
+      }
+      h2{
+        font-size: 90%;
+      }
+    #h2welcoming{
+        text-align: center;
+       font-size: 65%;
+    } 
+    form{
+        width: 65%;
+        margin: 20% 18%;
+    } 
+    a{
+        font-size: 50%;
+    }
+    #a11{
+        font-size: 100%;
+    }
+    p{
+        font-size: 60%;
+    }
+    #ul1{
+        width: 17%;
+    height: 12vh;
+
+    }
+    #ul2{
+        width: 16%;
+        height: 11vh;
+    }
+    #ul3{
+     width: 18.5%;
+    height: 12vh;
+    }
+    #ul4{
+        width: 17.5%;
+        height: 15vh;
+    }
+    #ul5{
+        left: 16%;
+        width: 15.5%;
+    }
+    #ul6{
+        left: 9%;
+        width: 15.5%;
+    }
+    #ul7{
+        width: 15.5%;
+    height: 12vh;
+    left: 68%;
+    }  
+   
+  }
+  @media (max-width:376px)
+  { 
+    #h2welcoming{
+        text-align: center;
+       font-size: 60%;
+       margin-bottom: 18%;
+    }
+    a {
+        font-size: 40%;
+    }
+    #a11{
+        font-size: 2.5vw;
+    }
+    #ul1{
+        width: 17%;
+    height: 12vh;
+
+    }
+    #ul2{
+        width: 16%;
+        height: 11vh;
+    }
+    #ul3{
+     width: 18.5%;
+    height: 12vh;
+    }
+    #ul4{
+        width: 17.5%;
+        height: 15vh;
+    }
+    #ul5{
+        left: 16%;
+        width: 15.5%;
+    }
+    #ul6{
+        left: 9%;
+        width: 15.5%;
+    }
+    #ul7{
+        width: 18.5%;
+    height: 13vh;
+    }  
+    form{
+        margin-top: 20%;
+        align-content: center;
+        width: 60%;
+    }
+    button{
+        margin-bottom: 5%;
+    }
+  }
+  @media (max-width:321px)
+  { 
+    #h2welcoming{
+        text-align: center;
+       font-size: 40%;
+       margin-bottom: 20%;
+    }
+    a {
+        font-size: 30%;
+    }
+    p{
+        font-size: 45%;
+    }
+    #ul1{
+        width: 16%;
+    height: 10vh;
+    }
+    #ul3{
+     width: 18.5%;
+    height: 11vh;
+    }
+    #ul4{
+        width: 17.5%;
+        height: 15vh;
+    }
+    #ul5{
+        left: 16%;
+    }
+    #ul6{
+        left: 9%;
+    }  
+    #ul7{
+        width: 20.5%;
+    height: 11vh;
+    }
+    form{
+        margin-top: 20%;
+        align-content: center;
+        width: 60%;
+    }
+   
+  }
+  @media (max-width:281px){
+    button{
+        height: 6vh;
+    }
+    form{
+        width: 70%;
+        margin: 30% 18%;
+        align-content: center;
+    }
+    #h2welcoming{
+        margin-bottom: 30%;
+    }
+   p{
+    margin-top: 15%;
+   }
+   #ul1{
+    height: 7vh;
+   }
+   #ul2{
+    height: 10vh;
+   }
+   #ul3{
+    height: 9vh;
+   }
+   #ul4{
+    height: 8vh;
+   }
+   #ul7{
+    height: 11vh;
+   }
   }

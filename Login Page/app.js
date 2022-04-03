@@ -11,36 +11,29 @@ function CheckFun(event){
     console.log(typeof(loginEmail));
     
     let loginPass= event.target.loginPass.value;
-    let StorageData=JSON.parse(localStorage.getItem("UsersData"));
-    console.log(StorageData);
-    // StorageData.map((value,index) => {
-    //     if(value == loginEmail ){
-    //         if(StorageData[index+1] != loginPass){
-    //             alert("The password is wrong");
-    //         }else{
-    //             logintranspert();
-    //     }}
-    //     else{
-    //         alert("The Email is wrong");
-    //     }
-    // }
-    // )
-    for(let i=1; i<StorageData.length;){
-        console.log(StorageData[i]);
-        if(StorageData[i] != loginEmail ){
-            i=i+3;
-            continue;
-        }    
-        else if(StorageData[i+1] != loginPass){
-            alert("The password is wrong");
-        }else{
-            logintranspert();
-            localStorage.setItem('name',(StorageData[i-1]));
-            console.log(StorageData[i-1]);
-            break;
-    
-}}
-// alert("The Email is wrong");
-    // console.log(StorageData[nth:Child(even)]);
-}
+    let storageData=JSON.parse(localStorage.getItem("UsersData"));
+    console.log(storageData);
 
+    for(let i=1; i<storageData.length;){
+        console.log(storageData[i]);
+        if(storageData[i] === loginEmail ){
+
+        if(storageData[i+1] === loginPass){
+            logintranspert();
+            localStorage.setItem('name',(storageData[i-1]));
+            console.log(storageData[i-1]);
+            break;
+        }
+        else{
+            alert("The password is wrong");
+            break;
+        } }  
+        else {
+        
+        if(i ===storageData.length-2){
+            alert("the email is wrong")
+        }
+        i=i+3;
+        continue;
+        }
+        }}

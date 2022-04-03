@@ -111,6 +111,8 @@ body {
 	position: relative;
 	width: 150px;
 	height: 150px;
+    margin-left: 45%;
+    margin-top: 5%;
   }
   
   .base-timer__svg {
@@ -160,4 +162,3 @@ body {
 	font-size: 40px;
     color: white;
   }
-  
