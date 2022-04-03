@@ -270,7 +270,7 @@ button{
   /* /////////////////////media///////////////////////////// */
   @media (min-width:1600px) and (max-width:2560px)
   {
-      form{
+    #homeForm{
         width: 60%;
         margin: 12% 21%;
       }
@@ -284,6 +284,31 @@ button{
     p{
         font-size: 2vw;
     }
+    #wName{
+        font-size: 3vw;
+    }
+    #selectForm{
+        width: 80%;
+        margin: 5% 10%;
+        align-content: center;
+       }
+       #submitt{
+        margin-top: 8%;
+        width: 84%;
+        margin-left: 8%;
+       }
+   #select{
+    letter-spacing: 1px;
+    margin: 0 8%;
+    font-size: 2vw
+   }
+   option{
+       font-size: 1vw;
+       width: 10%;
+   }
+   h2{
+       font-size: 2vw;
+   }
     #ul1{
       position: absolute;
       top: 0%;
@@ -416,8 +441,21 @@ button{
     #a11{
         font-size: 2vw;
     }
-
-      form{
+    #selectForm{
+        width: 80%;
+        margin: 10% 10%;
+        align-content: center;
+       }
+       #submitt{
+        margin-top: 8%;
+        width: 84%;
+        margin-left: 8%;
+       }
+   #select{
+    letter-spacing: 1px;
+    margin: 0 8%;
+   }
+    #homeForm{
         width: 60%;
         margin: 12% 21%;
       }
@@ -545,6 +583,9 @@ button{
       opacity: 20%;
   
   }
+  #par,#a22,#link{
+    font-size: 14px;
+   }
   }
   @media (max-width:426px)
   {
@@ -559,10 +600,11 @@ button{
         text-align: center;
        font-size: 65%;
     } 
-    form{
-        width: 65%;
-        margin: 8% 17%;
+    #homeForm{
+        width: 70%;
+        margin: 25% 16%;
     } 
+  
     a{
         font-size: 50%;
     }
@@ -602,14 +644,34 @@ button{
     height: 12vh;
     left: 68%;
     }  
+    #selectForm{
+        width: 80%;
+        margin: 10% 10%;
+        align-content: center;
+       }
+       #submitt{
+        margin-top: 8%;
+        width: 84%;
+        margin-left: 8%;
+       }
+   #select{
+    letter-spacing: 1px;
+    margin: 0 8%;
+   }
+   button a{
+    font-size: 53%;
+   }
+   #par,#a22,#link{
+    font-size: 14px;
+   }
    
   }
   @media (max-width:376px)
   { 
     #h2welcoming{
         text-align: center;
+        align-content: center;
        font-size: 60%;
-       margin-bottom: 18%;
     }
     a {
         font-size: 40%;
@@ -646,21 +708,41 @@ button{
         width: 18.5%;
     height: 13vh;
     }  
-    form{
-        margin-top: 20%;
-        align-content: center;;
-        width: 60%;
+    #homeForm{
+        width: 70%;
+        margin: 30% 18%;
     }
     button{
         margin-bottom: 5%;
     }
+    #selectForm{
+        width: 80%;
+        margin: 10% 10%;
+        align-content: center;
+       }
+       #submitt{
+        margin-top: 8%;
+        width: 84%;
+        margin-left: 8%;
+       }
+   #select{
+    letter-spacing: 1px;
+    margin: 0 8%;
+   }
+   button a{
+    font-size: 53%;
+   }
+   #par,#a22,#link{
+    font-size: 11px;
+   }
+
   }
   @media (max-width:321px)
   { 
     #h2welcoming{
         text-align: center;
-       font-size: 40%;
-       margin-bottom: 20%;
+        font-size: 70%;
+       margin-bottom:10%;
     }
     a {
         font-size: 30%;
@@ -687,27 +769,52 @@ button{
         left: 9%;
     }  
     #ul7{
-        width: 20.5%;
-    height: 11vh;
+    width: 19.5%;
+    height: 10vh;
     }
-    form{
-        margin-top: 20%;
+    #ul8{
+        width: 25.5%;
+        height: 12vh;
+        top: 27%;
+       }
+    #homeForm{
+        width: 70%;
+        margin: 30% 18%;
+    }
+    
+    #selectForm{
+        width: 80%;
+        margin: 10% 10%;
         align-content: center;
-        width: 60%;
-    }
-   
+       }
+
+       #submitt{
+        margin-top: 8%;
+        width: 84%;
+        margin-left: 8%;
+       }
+   #select{
+    letter-spacing: 1px;
+    margin: 0 8%;
+   }
+   button a{
+    font-size: 53%;
+   }
+   #par,#a22,#link{
+    font-size: 10px;
+   }
+
   }
   @media (max-width:281px){
     button{
         height: 6vh;
     }
-    form{
+    #homeForm{
         width: 70%;
         margin: 30% 18%;
-        align-content: center;
     }
     #h2welcoming{
-        margin-bottom: 30%;
+        margin-bottom: 15%;
     }
    p{
     margin-top: 15%;
@@ -726,5 +833,30 @@ button{
    }
    #ul7{
     height: 11vh;
+   }
+  
+   #submitt{
+    margin-top: 8%;
+    width: 84%;
+    margin-left: 8%;
+   }
+   #selectForm{
+    width: 80%;
+    margin: 10% 10%;
+    align-content: center;
+   }
+   #wName{
+    font-size: 7.5vw;
+    margin-top: 20%;
+   }
+  #a11{
+    font-size: 53%;
+   }
+   #select{
+    letter-spacing: 1px;
+    margin: 0 8%;
+   }
+   #par,#a22,#link{
+    font-size: 10px;
    }
   }
