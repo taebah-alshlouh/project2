@@ -79,7 +79,8 @@ let option1=document.getElementsByClassName("class1");
 let option2=document.getElementsByClassName("class2");
 let option3=document.getElementsByClassName("class3");
 let btn= document.getElementById("submitt");
-    
+let select=document.getElementById("select").value;
+
     if(selector.value == 1){
         localStorage.setItem(`exam`,`HTML`);
         btn.style.display="block";
@@ -91,5 +92,7 @@ let btn= document.getElementById("submitt");
     else if(selector.value == 3){
         localStorage.setItem(`exam`,`JS`);
         btn.style.display="block";  
-    }
+    }else if (select == 0)
+    alert("Please Select quiz Type");
+
 }
