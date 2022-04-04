@@ -20,8 +20,10 @@ function validation(event) {
     event.preventDefault();
     let  userName=event.target.userName.value;
     let registerEmail=event.target.registerEmail.value;
+    let confirmEmail=event.target.confirmEmail.value;
     let registerPass=event.target.registerPass.value;
     let registerConfPass=event.target.registerConfPass.value;
+    
     // let but=document.querySelector(button).value;
     // let div=document.querySelector("subdive").value;
 
@@ -38,6 +40,9 @@ else if (!letters.test(userName))
     alert("User name should only have alphapatic letters");
 
 else if (!filter.test(registerEmail))
+    alert("Email should be like this example@example.com");
+
+else if (confirmEmail != registerEmail)
     alert("Email should be like this example@example.com");
 
 else if (registerPass == "")
@@ -62,4 +67,29 @@ function LocalStore(UserName,Email,Password){
     userinfo.push(Password);
     let userinfoList= JSON.stringify(userinfo);
     localStorage.setItem("UsersData",userinfoList);
+}
+
+
+///////////////////////////////exam selector///////////////////////////
+//////////////////////////////////////////////////////////////////////
+function selectExam() {
+let divselect=document.getElementById("selectDiv")
+let selector=document.getElementById("select");
+let option1=document.getElementsByClassName("class1");
+let option2=document.getElementsByClassName("class2");
+let option3=document.getElementsByClassName("class3");
+let btn= document.getElementById("submitt");
+    
+    if(selector.value == 1){
+        localStorage.setItem(`exam`,`HTML`);
+        btn.style.display="block";
+    }
+    else if(selector.value == 2){
+        localStorage.setItem(`exam`,`CSS`);
+        btn.style.display="block";  
+    }
+    else if(selector.value == 3){
+        localStorage.setItem(`exam`,`JS`);
+        btn.style.display="block";  
+    }
 }
