@@ -5,6 +5,20 @@
 - *Taebah Shlouh(https://github.com/taebah-alshlouh)*
 - *Sara Kteifan(https://github.com/SaraKteifan)*
 - *Anas Allawafeh(https://github.com/10-anasAllawafeh)*
+# wireframe
+![registrationpage](./mocwirimg/wfe.jpg)
+![loginpage](./mocwirimg/wfa.jpg)
+![welcomepage](./mocwirimg/wfb.jpg)
+![questionpage](./mocwirimg/wfc.jpg)
+![resultpage](./mocwirimg/wfd.jpg)
+
+
+# mockup
+![registrationpage](./mocwirimg/mokupa.jpg)
+![loginpage](./mocwirimg/mokupb.jpg)
+![welcomepage](./mocwirimg/mokupc.jpg)
+![questionpage](./mocwirimg/mokupd.jpg)
+![resultpage](./mocwirimg/mokupe.jpg)
 
 # Project Live Link
 [live](https://taebah-alshlouh.github.io/project2/)
