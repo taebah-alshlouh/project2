@@ -452,17 +452,22 @@ let i=0;
   x=localStorage.getItem(`validAnswers`);
   y=localStorage.getItem(`unvalidAnswers`);
 if(x >= y){
-  resultText.innerHTML=`Congratulations You passed !!! ,Your score is ${(x/10)*100}% <br> number of correct answers is :${x} <br> number of wrong answers is :${y} `;
+  document.getElementById("resh1").innerHTML=`Congratulations You passed !!!`;
+  document.getElementById("resultp1").innerHTML=` Number of correct answers is :${x} <br> Number of wrong answers is :${y}`
+  document.getElementById("resultp2").innerHTML=`Your score is ${(x/10)*100}%`
   document.querySelector(`body`).style.backgroundColor="rgba(0, 182, 0, 0.712)";
   
 }
 else{
-  resultText.innerHTML=`HardLuck You Failed ,Your score is  ${(x/10)*100}% <br> number of correct answers is :${x} <br> number of wrong answers is :${y} `;
+  document.getElementById("resh1").innerHTML=`Hard Luck You Failed !`;
+  document.getElementById("resultp1").innerHTML=` Number of correct answers is :${x} <br> Number of wrong answers is :${y}`
+  document.getElementById("resultp2").innerHTML=`Your score is ${(x/10)*100}%`
   document.querySelector(`body`).style.backgroundColor="red";
 }
 
 function switcher() {
-    document.getElementById("resultText").style.display="none";
+    document.getElementById("JumDiv").style.display="none";
     document.querySelector("table").style.display="block";
     document.querySelector(`body`).style.backgroundColor="white";
+    document.getElementById('switchToTable').style.display="none";
 }

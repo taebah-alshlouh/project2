@@ -197,7 +197,7 @@ button{
   }
   #subdiv{
     background-color:rgb(113, 213, 74) ;
-    width: 91%;
+    width: 100%;
     display: none;
   }
   P{
@@ -250,183 +250,179 @@ button{
     transition: .5s all;
     background: #8DC26F;
   }
-
-
-  
-
-  /* /////////////////////media///////////////////////////// */
-  @media (min-width:1600px) and (max-width:2560px)
-  {
-    form{
-        width: 70%;
-        margin: 5% 16%;
-    }
-    h1 {
-        font-size: 4vw;
-        margin-top: 0%;
-    }
-    input{
-        font-size: 2vw;
-        margin: 0px 0%;
-        width: 42vw;
-    }
-    button{
-        font-size: 2vw;
-        width: 85%;
-        margin-left: 8%;
-    }
-    P {
-        font-size: 2vw;
-            }
-
-    #ul1{
-      top: 0%;
-      left: 80%;
-      width:11%;
-      height: 15vh;
-  }
-  #ul2{
+   /* /////////////////////media///////////////////////////// */
+   @media (min-width:1600px) and (max-width:2560px)
+   {
+     form{
+         width: 70%;
+         margin: 5% 16%;
+     }
+     h1 {
+         font-size: 4vw;
+         margin-top: 0%;
+     }
+     input{
+         font-size: 2vw;
+         margin: 0px 0%;
+         width: 42vw;
+     }
+     button{
+         font-size: 2vw;
+         width: 85%;
+         margin-left: 8%;
+     }
+     P {
+         font-size: 2vw;
+             }
+ 
+     #ul1{
+       top: 0%;
+       left: 80%;
+       width:11%;
+       height: 15vh;
+   }
+   #ul2{
+       top: 70%;
+       left: 10%;
+       width: 12%;
+       height: 17vh;
+ 
+   }
+   #ul3{
+       top: 10%;
+       left: 60%;
+       width:14.5%;
+       height: 20vh;
+   }
+   #ul4{
+       top: 70%;
+       left: 70%;
+       width: 13.5%;
+       height: 20vh;
+   }
+   #ul5{
+       top: 22%;
+       left: 18%;
+       width: 6.5%;
+       height: 10vh;
+   }
+   #ul6{
+       top: 38%;
+       left: 45%;
+       width: 9.5%;
+       height: 13vh;
+ 
+   }
+   #ul7{
+       top: 50%;
+       left: 16%;
+       width:14.5%;
+       height: 20vh;
+   }
+   #ul8{
+       top: 40%;
+       left: 65%;
+       width: 7.5%;
+      height: 10vh;
+   }
+   #ul9{
+       top: 75%;
+       left: 30%;
+       width: 10.5%;
+       height: 14vh;
+   }
+   #ul99{
+       top: 11%;
+       left: 34%;
+       width: 7.5%;
+       height: 11vh;
+   }
+   }
+   @media (max-width:769px)
+   {
+     form{
+         width: 70%;
+         margin: 5% 16%;
+     }
+     h1 {
+         font-size: 4vw;
+         margin-top: 0%;
+     }
+     input{
+         font-size: 75%;
+         margin: 0px 0%;
+         width: 42vw;
+     }
+     button{
+         font-size: 80%;
+         width: 85%;
+         margin-left: 8%;
+     }
+     P {
+         font-size: 85%;
+         }
+ 
+     #ul1{
+       top: 0%;
+       left: 80%;
+       width:11%;
+       height: 15vh;
+   }
+   #ul2{
+       top: 55%;
+       left: 10%;
+       width: 10%;
+       height: 15vh;
+   }
+   #ul3{
+       top: 10%;
+       left: 60%;
+       width:14.5%;
+       height: 20vh;
+   }
+   #ul4{
       top: 70%;
-      left: 10%;
-      width: 12%;
-      height: 17vh;
-
-  }
-  #ul3{
-      top: 10%;
-      left: 60%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul4{
-      top: 70%;
-      left: 70%;
-      width: 13.5%;
-      height: 20vh;
-  }
-  #ul5{
-      top: 22%;
-      left: 18%;
-      width: 6.5%;
-      height: 10vh;
-  }
-  #ul6{
-      top: 38%;
-      left: 45%;
-      width: 9.5%;
-      height: 13vh;
-
-  }
-  #ul7{
-      top: 50%;
-      left: 16%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul8{
-      top: 40%;
-      left: 65%;
-      width: 7.5%;
-     height: 10vh;
-  }
-  #ul9{
-      top: 75%;
-      left: 30%;
-      width: 10.5%;
-      height: 14vh;
-  }
-  #ul99{
-      top: 11%;
-      left: 34%;
-      width: 7.5%;
-      height: 11vh;
-  }
-  }
-  @media (max-width:769px)
-  {
-    form{
-        width: 70%;
-        margin: 5% 16%;
-    }
-    h1 {
-        font-size: 4vw;
-        margin-top: 0%;
-    }
-    input{
-        font-size: 75%;
-        margin: 0px 0%;
-        width: 42vw;
-    }
-    button{
-        font-size: 80%;
-        width: 85%;
-        margin-left: 8%;
-    }
-    P {
-        font-size: 85%;
-        }
-
-    #ul1{
-      top: 0%;
-      left: 80%;
-      width:11%;
-      height: 15vh;
-  }
-  #ul2{
-      top: 55%;
-      left: 10%;
-      width: 10%;
-      height: 15vh;
-  }
-  #ul3{
-      top: 10%;
-      left: 60%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul4{
-     top: 70%;
-      left: 70%;
-      width: 14.5%;
-      height: 20vh;
-
-  }
-  #ul5{
-      top: 22%;
-      left: 32%;
-      width: 9.5%;
-      height: 10vh;
-  }
-  #ul6{
-      top: 38%;
-      left: 45%;
-      width: 8.5%;
-      height: 10vh;
-  }
-  #ul7{
-      top: 50%;
-      left: 30%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul8{
-      top: 40%;
-      left: 65%;
-      width: 0.5%;
-      height: 6vh;
-
-  }
-  #ul9{
-      top: 75%;
-      left: 30%;
-      width: 9.5%;
-      height: 12vh;
-  }
-  #ul99{
-      top: 11%;
-      left: 34%;
-      width: 0.5%;
-      height: 6vh;
+       left: 70%;
+       width: 14.5%;
+       height: 20vh;
+ 
+   }
+   #ul5{
+       top: 22%;
+       left: 32%;
+       width: 9.5%;
+       height: 10vh;
+   }
+   #ul6{
+       top: 38%;
+       left: 45%;
+       width: 8.5%;
+       height: 10vh;
+   }
+   #ul7{
+       top: 50%;
+       left: 30%;
+       width:14.5%;
+       height: 20vh;
+   }
+   #ul8{
+       top: 40%;
+       left: 65%;
+       width: 0.5%;
+       height: 6vh;
+ 
+   }
+   #ul9{
+       top: 75%;
+       left: 30%;
+       width: 9.5%;
+       height: 12vh;
+   }
+   #ul99{
+       top: 11%;
+       left: 34%;
+       width: 0.5%;
+       height: 6vh;
     }
 }
   @media (max-width:426px)

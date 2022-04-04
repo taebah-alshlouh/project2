@@ -49,6 +49,7 @@ button{
     opacity: 0.8;
 }
 
+
 #ul1{
     position: absolute;
     top: 0%;
@@ -203,7 +204,7 @@ button{
   }
   #subdiv1{
     background-color:rgb(113, 213, 74) ;
-    width: 91%;
+    width: 100%;
     display: none;
   }
   P{

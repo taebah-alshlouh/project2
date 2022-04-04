@@ -22,29 +22,45 @@ button{
     display: block;
     margin: 2% 40% !important;
 }
-h2{
+/* h2{
     text-align: center;
-}
+    background-color:#e9ecef;
+    
+} */
+/* #resultText{
+    width: 70%;
+    margin: 5% 15%;
+} */
 a{
     text-decoration: none !important;
-    color: black !important;
+    color: white !important;
 }
-
+#JumDiv {
+    width: 60%;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    padding: 2%;
+    margin-top: 5%;
+}
 /* ////////////////////////////////////////// */
 /* /////////////Media Query///////////////////// */
+@media (min-width: 1400px) and (max-width: 1600px){
+    #restable{
+    margin: 5% 15%;
+    }
+}
 @media (max-width: 426px){
-    .brGrade {display: inline;}
-    #logout{
+    #logout, #switchToTable{
         width: 30%;
     }
 }
 @media (max-width: 321px){
-    #logout{
+    #logout, #switchToTable{
         margin-left: 50%;
     }
 }
 @media (max-width: 290px){
-    #logout{
+    #logout, #switchToTable{
         margin-left: 60%;
     }
 }

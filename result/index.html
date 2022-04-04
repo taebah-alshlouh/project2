@@ -9,9 +9,16 @@
     <title>Result</title>
 </head>
 <body>
-    <h2 id="resultText"></h2>
-    <button id="switchToTable" onclick="switcher()">Show Results</button>
-    <table class="container table table-striped ">
+    <div class="jumbotron container" id="JumDiv" >
+        <h1 class="display-4" id="resh1"></h1>
+        <hr class="my-4">
+        <p class="lead" id="resultp1"></p>
+        <p id="resultp2"></p>
+        
+      </div>
+    <!-- <h2 id="resultText"></h2> -->
+    <button id="switchToTable" class="btn btn btn-dark btn-lg" onclick="switcher()">Show Results</button>
+    <table class="container table table-striped " id="restable">
         
         <tbody>
              <tr><th colspan="2" id="userName"></th>  <td colspan="2" id="finalResult"></td></tr>
@@ -83,7 +90,7 @@
             </tr>
         </tbody>
       </table>
-      <button id="logout"><a href="../index.html">LogOut</a> </button>
+      <button class="btn btn btn-dark btn-lg" id="logout"><a href="../index.html">LogOut</a> </button>
 </body>
 <script src="app.js"></script>
 </html>

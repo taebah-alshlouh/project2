@@ -43,7 +43,7 @@ else if (!filter.test(registerEmail))
     alert("Email should be like this example@example.com");
 
 else if (confirmEmail != registerEmail)
-    alert("Email should be like this example@example.com");
+    alert("The two emails doesn't match");
 
 else if (registerPass == "")
     alert("Password is required");
