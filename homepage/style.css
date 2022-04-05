@@ -277,6 +277,12 @@ button{
   /* /////////////////////media///////////////////////////// */
   @media (min-width:1600px) and (max-width:2560px)
   {
+      #headingof{
+        font-size: 1.8vw;
+      }
+      #qName{
+          font-size: 2vw;
+      }
     #submitt{
         margin-top: 4%;
         width: 50%;
@@ -745,6 +751,10 @@ button{
   }
   @media (max-width:321px)
   { 
+    h3 {
+        font-size: 95%;
+    }
+
     #h2welcoming{
         text-align: center;
         font-size: 70%;
@@ -865,4 +875,8 @@ button{
    #par,#a22,#link{
     font-size: 10px;
    }
+   h3 {
+    font-size: 90%;
+}
+
   }

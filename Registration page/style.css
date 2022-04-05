@@ -253,6 +253,10 @@ button{
    /* /////////////////////media///////////////////////////// */
    @media (min-width:1600px) and (max-width:2560px)
    {
+       select{
+        font-size: 52px;
+        width: 84%;
+       }
      form{
          width: 70%;
          margin: 5% 16%;
@@ -494,6 +498,7 @@ button{
     input{
         width: 90%;
          margin: 0px 3%;
+         font-size: 75%;
     }
     button{
         font-size: 80%;
@@ -503,9 +508,6 @@ button{
     P {
         font-size: 70%;
     }
-input{
-    font-size: 75%;
-}
     #ul1{
         width: 17%;
     height: 12vh;
@@ -538,6 +540,9 @@ input{
 }
 @media (max-width:321px)
 { 
+    select{
+        width: 86%;
+    }
     form{
         width: 70%;
         margin: 13% 16%;
@@ -549,6 +554,7 @@ input{
     input{
         width: 85%;
         margin: 0px 8%;
+        font-size: 72%;
     }
     button{
         font-size: 80%;
@@ -558,11 +564,6 @@ input{
     P {
         font-size: 70%;
     }
-input{
-    font-size: 72%;
-}
-
-
   #ul1{
       width: 16%;
   height: 10vh;
@@ -592,6 +593,9 @@ input{
      }
     }
 @media (max-width:281px){
+    select{
+        width: 87%
+    }
 
     form{
         width: 70%;
@@ -604,6 +608,7 @@ input{
     input{
         width: 85%;
         margin: 0px 8%;
+        font-size: 72%;
     }
     button{
         font-size: 80%;
@@ -613,10 +618,6 @@ input{
     P {
         font-size: 70%;
     }
-input{
-    font-size: 72%;
-}
-
    #ul1{
     height: 7vh;
    }
