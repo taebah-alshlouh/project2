@@ -7,31 +7,31 @@ body{
 }
 h1{
     color: rgba(255, 255, 255, 0.745);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 form{
     background-color: #76b852;
-    height: 63vh;
-    display: grid;
+    height: 45vh;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 32%;
-    height: 20hv;
-    margin: 5% 34%;
-    border-radius: 5%;
-    align-content: space-evenly;
+    margin: 2% 34%;
+    border-radius: 50px;
 }
 input{
     background-color:transparent;
     display: block;
     border: 1px solid rgba(255, 255, 255, 0.412);
-    height: 5vh;
+    height: 7vh;
     text-align: center;
     color: aliceblue;
     font-size: large;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+    width: 75%;
+    border-radius: 50px;
+    margin: 6% 12%;
 }
 input[type=email]:not(:placeholder-shown):invalid {
     color: #cd8a56;
@@ -43,10 +43,11 @@ input[type=email]:not(:placeholder-shown):invalid {
   }
 button{
     border: 2px solid transparent;
-    border-radius: 2.5%;
+    border-radius: 50px;
     background-color:rgb(113, 213, 74) ;
     color: rgba(255, 255, 255, 0.745);
-    height: 5vh;
+    width: 50%;
+    height: 7vh;
     font-size: large;
     font-weight: 500;
     letter-spacing: 2px;

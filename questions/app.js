@@ -337,14 +337,20 @@ if (i == 1)
             answer2.innerHTML= SpecifiedQuestions[8].choice2;
             answer3.innerHTML= SpecifiedQuestions[8].choice3;
             break;
-            case(10):
-        question.innerHTML= SpecifiedQuestions[9].question;
+        //     case(10):
+        // question.innerHTML= SpecifiedQuestions[9].question;
+        //     answer1.innerHTML= SpecifiedQuestions[9].choice1;
+        //     answer2.innerHTML= SpecifiedQuestions[9].choice2;
+        //     answer3.innerHTML= SpecifiedQuestions[9].choice3;
+        //     break;
+        default:
+          question.innerHTML= SpecifiedQuestions[9].question;
             answer1.innerHTML= SpecifiedQuestions[9].choice1;
             answer2.innerHTML= SpecifiedQuestions[9].choice2;
             answer3.innerHTML= SpecifiedQuestions[9].choice3;
-            break;
-        default:
-            qDiv.style.display='none';
+            // qDiv.style.display='none';
+            btnNext.style.display="none";
+            resultButt.style.display='block';
             for(i=0; i<10; i++){
                 let a=Object.values(SpecifiedQuestions[i]);
                 yourAnswers.push(a[savedAnswers[i]]);
@@ -352,7 +358,7 @@ if (i == 1)
             console.log(yourAnswers);
             localStorage.setItem("Answers",JSON.stringify(savedAnswers));
             localStorage.setItem("yourAnswers",JSON.stringify(yourAnswers));
-            resultButt.style.display='block';
+            // resultButt.style.display='block';
             
     }
 }
