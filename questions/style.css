@@ -98,7 +98,12 @@ body {
    text-decoration: none;
    color: white;
 }
-
+@media(max-width:576px) {
+  .question {
+      width: 100%;
+      word-spacing: 2px
+  }
+}
 
 /* //////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////// */
@@ -270,7 +275,6 @@ font-size: 40px;
       color: white;
     }
 }
-
 @media (max-width:575px){
   .base-timer {
       position: relative;
@@ -279,10 +283,6 @@ font-size: 40px;
       margin-left: 35%;
       margin-top: 5%;
     }
-    .question {
-      width: 100%;
-      word-spacing: 2px
-  }
     .base-timer__label {
       position: absolute;
       width: 95px;
@@ -295,22 +295,7 @@ font-size: 40px;
       color: white;
     }
 }
-@media (max-width:426px){
-  .container {
-    width: 90% !important;
-}
-}
-@media (max-width:376px){
-  .container {
-    width: 90% !important;
-  }
-}
-@media (max-width:321px){
-  .container {
-    width: 90% !important;
-}
-}
-@media (max-width:281px){
+@media (max-width:280px){
   .base-timer {
       position: relative;
       width: 75px;
@@ -329,8 +314,4 @@ font-size: 40px;
       font-size: 40px;
       color: white;
     }
-  .container {
-    width: 85% !important;
-}
-    
 }

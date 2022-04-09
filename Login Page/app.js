@@ -1,7 +1,8 @@
 //////////Login Form //////////////////////////////////////
 function logintranspert() {
-    document.getElementById('submit1').style.display="none";
-    document.getElementById("subdiv1").style.display="block";
+    // document.getElementById('submit1').style.display="none";
+    // document.getElementById("subdiv1").style.display="block";
+    window.location ="../Homepage/index.html"
 }
 
 LoginForm.addEventListener("submit",CheckFun);
@@ -16,11 +17,14 @@ function CheckFun(event){
 
     for(let i=1; i<storageData.length;){
         console.log(storageData[i]);
+
+        if(loginEmail == ""){
+            alert("please enter an email");
+            break;
+        }
+
         if(storageData[i] === loginEmail ){
-            if(loginEmail == ""){
-                alert("please enter an email");
-                break;
-            }    
+
         if(storageData[i+1] === loginPass){
             logintranspert();
             localStorage.setItem('name',(storageData[i-1]));
@@ -34,7 +38,7 @@ function CheckFun(event){
         else {
         
         if(i ===storageData.length-2){
-            alert("the email is wrong")
+            alert("the email is wrong");
         }
         i=i+3;
         continue;

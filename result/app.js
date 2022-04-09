@@ -151,8 +151,8 @@ const htmlQuestions=[
     },
     {
         question: 'Q6: CSS stands for',
-        choice1:  'Cascading style sheets',
-        choice2:  'Color and style sheets',//
+        choice1:  'Color and style sheets',
+        choice2:  'Cascading style sheets',//
         choice3:  'Cascade style sheets',
     },
     {
@@ -169,8 +169,8 @@ const htmlQuestions=[
     },
     {
         question: 'Q9: The CSS property used to make the text bold is :',
-        choice1: 'font-weight : bold',
-        choice2: 'weight: bold',//
+        choice1: 'weight: bold',
+        choice2: 'font-weight : bold',//
         choice3: 'font: bold',
     },
     {
@@ -452,16 +452,16 @@ let i=0;
   x=localStorage.getItem(`validAnswers`);
   y=localStorage.getItem(`unvalidAnswers`);
 if(x >= y){
-  document.getElementById("resh1").innerHTML=`Congratulations You passed !!!`;
-  document.getElementById("resultp1").innerHTML=` Number of correct answers is :${x} <br> Number of wrong answers is :${y}`
-  document.getElementById("resultp2").innerHTML=`Your score is ${(x/10)*100}%`
+    document.getElementById("resh1").innerHTML=`Congratulations You passed !!!`;
+    document.getElementById("resultp1").innerHTML=` Number of correct answers is :${x} <br> Number of wrong answers is :${y}`
+    document.getElementById("resultp2").innerHTML=`Your score is ${(x/10)*100}%`
   document.querySelector(`body`).style.backgroundColor="rgba(0, 182, 0, 0.712)";
   
 }
 else{
-  document.getElementById("resh1").innerHTML=`Hard Luck You Failed !`;
-  document.getElementById("resultp1").innerHTML=` Number of correct answers is :${x} <br> Number of wrong answers is :${y}`
-  document.getElementById("resultp2").innerHTML=`Your score is ${(x/10)*100}%`
+    document.getElementById("resh1").innerHTML=`Hard Luck You Failed !`;
+    document.getElementById("resultp1").innerHTML=` Number of correct answers is :${x} <br> Number of wrong answers is :${y}`
+    document.getElementById("resultp2").innerHTML=`Your score is ${(x/10)*100}%`
   document.querySelector(`body`).style.backgroundColor="red";
 }
 

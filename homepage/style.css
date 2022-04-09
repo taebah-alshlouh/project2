@@ -11,13 +11,13 @@ h1{
 }
 form{
     background-color: #76b852;
-    height: 63vh;
-    display: grid;
+    height: 50vh;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 20hv;
-    margin: 5% 25%;
+    width: 40%;
+    margin: 3% 0%;
+    padding-top: 4%;
     border-radius: 50px;
 }
 #homeForm{
@@ -56,9 +56,17 @@ button{
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
     width: 50%;
+    border-radius: 50px;
+    
+}
+#submitt{
     margin-left: 25%;
 }
 #submitt:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#submittt:hover{
     cursor: pointer;
     opacity: 0.8;
 }
@@ -69,34 +77,49 @@ button{
     left: 80%;
     background-color: rgb(213, 208, 208);
     width:5%;
-    height: 15vh;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 50%;
+    border-radius: 50px;
     opacity: 20%;
+    animation-name: move1;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul2{
     position: absolute;
-    top: 55%;
-    left: 10%;
+    top: 85%;
+    left: 3%;
     background-color: rgb(213, 208, 208);
     width:5%;
-    height: 15vh;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 50%;
+    border-radius: 50px;
     opacity: 20%;
+    animation-name: move2;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul3{
     position: absolute;
-    top: 10%;
+    top: 28%;
     left: 60%;
     background-color: rgb(213, 208, 208);
-    width:7.5%;
-    height: 20vh;
+    width:5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
     display: block;
-    border-radius: 75%;
     opacity: 20%;
+    animation-name: move3;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul4{
@@ -104,71 +127,101 @@ button{
     top: 70%;
     left: 70%;
     background-color: rgb(213, 208, 208);
-    width:7.5%;
-    height: 20vh;
+    width:10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 75%;
+    border-radius: 100px;
     opacity: 20%;
+    animation-name: move4;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul5{
     position: absolute;
-    top: 22%;
-    left: 32%;
+    top: 5%;
+    left: 17%;
     background-color: rgb(213, 208, 208);
-    width:2.5%;
-    height: 10vh;
+    width:10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 50%;
+    border-radius: 100px;
     opacity: 20%;
+    animation-name: move5;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul6{
     position: absolute;
-    top: 38%;
-    left: 45%;
+    top: 46%;
+    left: 64%;
     background-color: rgb(213, 208, 208);
-    width:2.5%;
-    height: 10vh;
+    width: 10%;
+    padding-bottom: 10%;
     display: block;
-    border-radius: 50%;
+    border-radius: 100px;
     opacity: 20%;
+    animation-name: move6;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul7{
     position: absolute;
-    top: 50%;
-    left: 30%;
+    top: 61%;
+    left: 14%;
     background-color: rgb(213, 208, 208);
-    width: 7.5%;
-    height: 20vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
+    animation-name: move7;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul8{
     position: absolute;
-    top: 40%;
-    left: 65%;
+    top: 17%;
+    left: 72%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
+    animation-name: move8;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul9{
     position: absolute;
-    top: 75%;
-    left: 30%;
+    top: 29%;
+    left: 25%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 15%;
+    padding-bottom: 15%;
     display: block;
-    border-radius: 100%;
+    border-radius: 130px;
     opacity: 20%;
+    animation-name: move9;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #ul99{
@@ -176,11 +229,16 @@ button{
     top: 11%;
     left: 34%;
     background-color: rgb(213, 208, 208);
-    width: 0.5%;
-    height: 6vh;
+    width: 5%;
+    padding-bottom: 5%;
     display: block;
-    border-radius: 100%;
+    border-radius: 50px;
     opacity: 20%;
+    animation-name: move99;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
 }
 #sub:hover {
@@ -235,7 +293,7 @@ button{
     margin: 0 25%;
     
   }
-
+  
   #selectDiv{
    display: flex;
    justify-content: center;
@@ -262,15 +320,62 @@ button{
     color: rgba(255, 255, 255, 0.745);
   }
 
+/* /////////////////////Animation///////////////////////////// */
+@keyframes move1 {
+    form{top:0%}
+    to{top:7%}
+    
+}
+@keyframes move2 {
+    form{top:85%}
+    to{top:78%}
+    
+}
+@keyframes move3 {
+    form{top:28%}
+    to{top:35%}
+    
+}
+@keyframes move4 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move5 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move6 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move7 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move8 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move9 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+@keyframes move99 {
+    form{top:17%}
+    to{top:24%}
+    
+}
+
+
   /* /////////////////////media///////////////////////////// */
   @media (min-width:1600px) and (max-width:2560px)
   {
-      #headingof{
-        font-size: 1.8vw;
-      }
-      #qName{
-          font-size: 2vw;
-      }
     #submitt{
         margin-top: 4%;
         width: 50%;
@@ -309,71 +414,22 @@ button{
    h2{
        font-size: 2vw;
    }
-    #ul1{
-      top: 0%;
-      left: 80%;
-      width:11%;
-      height: 15vh;
+    
   }
-  #ul2{
-      top: 70%;
-      left: 10%;
-      width: 12%;
-      height: 17vh;
+  @media (min-width:1001px) and (max-width:1200px){
+    #h2welcoming{
+        font-size: large; 
+    }
   }
-  #ul3{
-      top: 10%;
-      left: 60%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul4{
-      top: 70%;
-      left: 70%;
-      width: 13.5%;
-      height: 20vh;
-  }
-  #ul5{
-      top: 22%;
-      left: 18%;
-      width: 6.5%;
-      height: 10vh;
-  }
-  #ul6{
-      top: 38%;
-      left: 45%;
-      width: 9.5%;
-      height: 13vh;
-  }
-  #ul7{
-      top: 50%;
-      left: 16%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul8{
-      top: 40%;
-      left: 65%;
-      width: 7.5%;
-     height: 10vh;
-  }
-  #ul9{
-      top: 75%;
-      left: 30%;
-      width: 10.5%;
-      height: 14vh;
-  }
-  #ul99{
-      top: 11%;
-      left: 34%;
-      width: 7.5%;
-      height: 11vh;
-  }
+
+  @media (min-width:750px) and (max-width:1000px){
+    #h2welcoming{
+        font-size: larger; 
+    }
   }
 
 
-
-  @media (max-width:769px)
+  @media (max-width:1000px)
   {
     a{
         font-size: 65%;
@@ -401,85 +457,43 @@ button{
       }
     #h2welcoming{
         text-align: center;
-     font-size:85%;;
+     font-size:large;
+     letter-spacing: 2px;
     }
-    #ul1{
-      top: 0%;
-      left: 80%;
-      width:11%;
-      height: 15vh;
-  }
-  #ul2{
-      top: 55%;
-      left: 10%;
-      width: 10%;
-      height: 15vh;
-  }
-  #ul3{
-      top: 10%;
-      left: 60%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul4{
-      top: 70%;
-      left: 70%;
-      width: 14.5%;
-      height: 20vh;
-  }
-  #ul5{
-      top: 22%;
-      left: 32%;
-      width: 9.5%;
-      height: 10vh;
-  }
-  #ul6{
-      top: 38%;
-      left: 45%;
-      width: 8.5%;
-      height: 10vh;
-  }
-  #ul7{
-      top: 50%;
-      left: 30%;
-      width:14.5%;
-      height: 20vh;
-  }
-  #ul8{
-      top: 40%;
-      left: 65%;
-      width: 0.5%;
-      height: 6vh;
-  }
-  #ul9{
-      top: 75%;
-      left: 30%;
-      width: 9.5%;
-      height: 12vh;
-  }
-  #ul99{
-      top: 11%;
-      left: 34%;
-      width: 0.5%;
-      height: 6vh;
-  }
-  #par,#a22,#link{
+      #par,#a22,#link{
     font-size: 14px;
    }
+  
+  h2,h3{
+      color: rgba(255, 255, 255);
   }
-  @media (max-width:426px)
+  p{
+    font-size: 60%;
+}
+#a11{
+    font-size: 80%;
+}
+}
+  @media (max-width:440px)
   {
       h1{
         font-size: 5.5vw;
         margin-top: 15%;
       }
-      h2{
+      h2,h3{
         font-size: 90%;
       }
     #h2welcoming{
         text-align: center;
        font-size: 65%;
+       color: white;
+       font-weight: bold;
     } 
+    h3{
+        color: white;
+       font-weight: bold;
+    }
+    
     #homeForm{
         width: 70%;
         margin: 25% 16%;
@@ -495,36 +509,15 @@ button{
         font-size: 60%;
     }
     #ul1{
-        width: 17%;
-    height: 12vh;
-
+        padding-bottom: 10%;
     }
     #ul2{
-        width: 16%;
-        height: 11vh;
+        padding-bottom: 10%;
     }
     #ul3{
-     width: 18.5%;
-    height: 12vh;
+        padding-bottom: 10%;
     }
-    #ul4{
-        width: 17.5%;
-        height: 15vh;
-    }
-    #ul5{
-        left: 16%;
-        width: 15.5%;
-    }
-    #ul6{
-        left: 9%;
-        width: 15.5%;
-    }
-    #ul7{
-        width: 15.5%;
-    height: 12vh;
-    left: 68%;
-    }  
-    #selectForm{
+        #selectForm{
         width: 80%;
         margin: 10% 10%;
         align-content: center;
@@ -533,6 +526,11 @@ button{
         margin-top: 8%;
         width: 84%;
         margin-left: 8%;
+       }
+       #submittt{
+        margin-top: 8%;
+        width: 84%;
+        /* margin-left: 8%; */
        }
    #select{
     letter-spacing: 1px;
@@ -556,38 +554,19 @@ button{
     a {
         font-size: 40%;
     }
-    #a11{
-        font-size: 2.5vw;
-    }
-    #ul1{
-        width: 17%;
-    height: 12vh;
-
-    }
-    #ul2{
-        width: 16%;
-        height: 11vh;
-    }
-    #ul3{
-     width: 18.5%;
-    height: 12vh;
-    }
     #ul4{
-        width: 17.5%;
-        height: 15vh;
+        padding-bottom: 12%;
+   }
+   #ul5{
+    padding-bottom: 12%;
+}
+   #ul6{
+    padding-bottom: 12%;
+}
+    #ul99{
+         padding-bottom: 12%;
     }
-    #ul5{
-        left: 16%;
-        width: 15.5%;
-    }
-    #ul6{
-        left: 9%;
-        width: 15.5%;
-    }
-    #ul7{
-        width: 18.5%;
-    height: 13vh;
-    }  
+    
     #homeForm{
         width: 70%;
         margin: 30% 18%;
@@ -619,10 +598,6 @@ button{
   }
   @media (max-width:321px)
   { 
-    h3 {
-        font-size: 95%;
-    }
-
     #h2welcoming{
         text-align: center;
         font-size: 70%;
@@ -635,32 +610,17 @@ button{
         font-size: 45%;
     }
     #ul1{
-        width: 16%;
-    height: 10vh;
+        padding-bottom: 12%;
+    }
+    #ul2{
+        padding-bottom: 12%;
+        position: absolute;
+        top: 55%;
     }
     #ul3{
-     width: 18.5%;
-    height: 11vh;
+        padding-bottom: 12%;
     }
-    #ul4{
-        width: 17.5%;
-        height: 15vh;
-    }
-    #ul5{
-        left: 16%;
-    }
-    #ul6{
-        left: 9%;
-    }  
-    #ul7{
-    width: 19.5%;
-    height: 10vh;
-    }
-    #ul8{
-        width: 25.5%;
-        height: 12vh;
-        top: 27%;
-       }
+    
     #homeForm{
         width: 70%;
         margin: 30% 18%;
@@ -703,21 +663,7 @@ button{
    p{
     margin-top: 15%;
    }
-   #ul1{
-    height: 7vh;
-   }
-   #ul2{
-    height: 10vh;
-   }
-   #ul3{
-    height: 9vh;
-   }
-   #ul4{
-    height: 8vh;
-   }
-   #ul7{
-    height: 11vh;
-   }
+   
   
    #submitt{
     margin-top: 8%;
@@ -743,8 +689,45 @@ button{
    #par,#a22,#link{
     font-size: 10px;
    }
-   h3 {
-    font-size: 90%;
-}
+  }
 
+  @media (max-height:415px){
+      #h2welcoming{
+          font-size: small;
+          letter-spacing: 0;
+          text-align:center;
+      }
+      h3{
+        font-size: small;
+        letter-spacing: 0;
+        text-align:center;
+      }
+
+      #submitt{
+          margin-top: 0;
+          height: 10vh;
+      }
+      #submittt{
+        margin-top: 0;
+        height: 10vh;
+      }
+      #selectForm{
+        height: 60vh;
+      }
+
+  }
+  @media (max-height:415px){
+    #h2welcoming{
+        font-size: x-small;
+        letter-spacing: 0;
+        text-align:center;
+    }
+    h3{
+      font-size: x-small;
+      letter-spacing: 0;
+      text-align:center;
+    }
+    #selectForm{
+        margin: 5% 10%;
+      }
   }

@@ -12,8 +12,9 @@ function RestoreData(){
 }
 
 function transpert() {
-    document.getElementById('submit').style.display="none";
-    document.getElementById("subdiv").style.display="block";
+    // document.getElementById('submit').style.display="none";
+    // document.getElementById("subdiv").style.display="block";
+    window.location ="../Login Page/index.html";
 }
 registerForm.addEventListener("submit",validation)
 function validation(event) {
@@ -23,6 +24,8 @@ function validation(event) {
     let confirmEmail=event.target.confirmEmail.value;
     let registerPass=event.target.registerPass.value;
     let registerConfPass=event.target.registerConfPass.value;
+    let select=document.getElementById("select").value;
+    
     
     // let but=document.querySelector(button).value;
     // let div=document.querySelector("subdive").value;
@@ -43,7 +46,7 @@ else if (!filter.test(registerEmail))
     alert("Email should be like this example@example.com");
 
 else if (confirmEmail != registerEmail)
-    alert("The two emails doesn't match");
+    alert("Email Don't match");
 
 else if (registerPass == "")
     alert("Password is required");
@@ -51,8 +54,15 @@ else if (registerPass == "")
 else if (!pwd_expression.test(registerPass))
     alert("Password must contain capital and small letters,numbers and a symbol");
 
+else if (registerPass.length<8 || registerPass.length>32)
+    alert("Password must be 8 charechter minimum and maximum 32");
+    
 else if (registerConfPass != registerPass)
     alert("The two passwords doesn't match");
+
+else if (select == 0)
+    alert("Please Select quiz Type");
+
 else{
 LocalStore(userName,registerEmail,registerPass)
 transpert();
@@ -79,8 +89,7 @@ let option1=document.getElementsByClassName("class1");
 let option2=document.getElementsByClassName("class2");
 let option3=document.getElementsByClassName("class3");
 let btn= document.getElementById("submitt");
-let select=document.getElementById("select").value;
-
+    
     if(selector.value == 1){
         localStorage.setItem(`exam`,`HTML`);
         btn.style.display="block";
@@ -92,7 +101,5 @@ let select=document.getElementById("select").value;
     else if(selector.value == 3){
         localStorage.setItem(`exam`,`JS`);
         btn.style.display="block";  
-    }else if (select == 0)
-    alert("Please Select quiz Type");
-
+    }
 }
